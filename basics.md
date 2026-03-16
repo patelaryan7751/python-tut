@@ -51,3 +51,17 @@ print(f"hello {some_variable}") # prints hello john
 print(f"{some_variable.upper()}") # prints JOHN
 print(f"{1+2-3}") # prints 0
 ```
+
+## Functions
+
+```
+def greet(name): # this defines a function called greet with one parameter called name
+    salutation = "Good Morning " + name # Note that the function body is indented, this marks the start of the code block
+    return salutation # The return keyword returns the value of the function to the caller
+
+print(greet("John")) # prints "Good Morning John"
+print(greet("Jane")) # prints "Good Morning Jane"
+# We only had to define the function once, we can call it as many times as we want
+```
+
+If we don't return something it returns `None`
