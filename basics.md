@@ -10,4 +10,8 @@ some_variable = 1.6 # float
 print(type(some_variable)) # prints <class 'float'>
 ```
 Output would look like this
-
+```
+hello world
+<class 'int'>
+<class 'float'>
+```
