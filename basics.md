@@ -74,6 +74,31 @@ list_with_strings = ["a", "b", "c", "d", "e"]
 list_with_mixed_data_types = [1, "a", "b", "c", "d", "e"]
 length_of_list = len(list_with_numbers) # This will return the length of the list
 ```
+```
+list_with_numbers = [1, 2, 3, 4, 5]
+print(list_with_numbers[0]) # prints 1
+```
+Lists can be sliced ( create a new sublist from the list ) like this **list_variable[start:end]** (note that the start is included and the end is excluded). Lists can also be negatively indexed i.e **-1 index is the last element.**
 
+```
+list_with_numbers = [1, 2, 3, 4, 5]
+print(list_with_numbers[0:2]) # prints [1, 2]
+print(list_with_numbers[:2]) # prints [1, 2] not specifying a start index will start from the beginning
+print(list_with_numbers[2:]) # prints [3, 4, 5] not specifying an end index will end at the end
+print(list_with_numbers[-1]) # prints 5
+print(list_with_numbers[-3:]) # prints [3, 4, 5] ( the last three items with the start included)
+```
+
+```
+list_with_numbers = [1, 2, 3, 4, 5]
+list_with_numbers.append(6) # adds 6 to the end of the list
+list_with_numbers.insert(2, 7) # inserts 7 at index 2
+list_with_numbers.remove(3) # removes the first 3 from the list ** Based on the value not the index
+list_with_numbers.pop() # removes the last item from the list
+list_with_numbers.pop(0) # removes the first item from the list
+list_with_numbers.reverse() # reverses the order of the list, note that this function does not return anything
+list_with_numbers.sort() # sorts the list , note that this function does not return anything
+list_with_numbers.sort(reverse=True) # sorts the list in reverse order
+```
 
 
