@@ -93,7 +93,7 @@ print(list_with_numbers[-3:]) # prints [3, 4, 5] ( the last three items with the
 list_with_numbers = [1, 2, 3, 4, 5]
 list_with_numbers.append(6) # adds 6 to the end of the list
 list_with_numbers.insert(2, 7) # inserts 7 at index 2
-list_with_numbers.remove(3) # removes the first 3 from the list ** Based on the value not the index
+list_with_numbers.remove(3) # removes the first number 3 from the list ** Based on the value not the index
 list_with_numbers.pop() # removes the last item from the list
 list_with_numbers.pop(0) # removes the first item from the list
 list_with_numbers.reverse() # reverses the order of the list, note that this function does not return anything
