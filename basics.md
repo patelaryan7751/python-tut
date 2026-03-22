@@ -65,3 +65,15 @@ print(greet("Jane")) # prints "Good Morning Jane"
 ```
 
 If we don't return something it returns `None`
+
+## Lists
+
+```
+list_with_numbers = [1, 2, 3, 4, 5]
+list_with_strings = ["a", "b", "c", "d", "e"]
+list_with_mixed_data_types = [1, "a", "b", "c", "d", "e"]
+length_of_list = len(list_with_numbers) # This will return the length of the list
+```
+
+
+
